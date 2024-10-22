@@ -1,8 +1,8 @@
 {
     "project_name": "project name (with spaces)",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "git_repo_url": "git repo url to clone it",
-    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "author_name": "author",
     "author_user": "{{ cookiecutter.author_name }}",
     "author_email": "nikita.ostrovsky@axiell.com",
