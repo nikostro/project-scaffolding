@@ -5,7 +5,7 @@
     "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "author",
     "author_user": "{{ cookiecutter.author_name }}",
-    "author_email": "info@collecitveai.io",
+    "author_email": "nikita.ostrovsky@axiell.com",
     "description": "A short description of the project.",
     "use_cuda": ["yes", "no"],
     "python_version": [
